@@ -1,0 +1,177 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevchevronprojectt"
+		},
+		"DS_FILTER_CSV_COPYDATA_accountKey": {
+			"value": ""
+		},
+		"DS_GETMETADATA_CHILDITEM_accountKey": {
+			"value": ""
+		},
+		"DS_GETMETADATA_CSV_SIZE_accountKey": {
+			"value": ""
+		},
+		"DS_REST_API_ADLS_accountKey": {
+			"value": ""
+		},
+		"DS_SOURCE_DELETE_accountKey": {
+			"value": ""
+		},
+		"DS_SQLSERVER_DB_password": {
+			"value": ""
+		},
+		"LS_FOREACH_MULTCSV_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_GETMETADATA_SQL_password": {
+			"value": ""
+		},
+		"LS_LOOKUP_FILTER_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_MULTIPLECSV_accountKey": {
+			"value": ""
+		},
+		"LS_MULTIPLE_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_EVENT_TRIGGER_MULTCSV_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_FOREACH_MULTCSV_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_RESTAPI_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_EVENT_TRIGGER_MULTCSV_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_LOOKUP_accountKey": {
+			"value": ""
+		},
+		"LS_SQLDB_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_SQLSERVER_DB_password": {
+			"value": ""
+		},
+		"LS_SQL_LOOKUP_password": {
+			"value": ""
+		},
+		"LS_SQL_STOREDPROCEDURE_password": {
+			"value": ""
+		},
+		"DS_FILTER_CSV_COPYDATA_properties_typeProperties_url": {
+			"value": "https://testtstoragee01.dfs.core.windows.net/"
+		},
+		"DS_GETMETADATA_CHILDITEM_properties_typeProperties_url": {
+			"value": "https://testtstoragee01.dfs.core.windows.net/"
+		},
+		"DS_GETMETADATA_CSV_SIZE_properties_typeProperties_url": {
+			"value": "https://testtstoragee01.dfs.core.windows.net/"
+		},
+		"DS_REST_API_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0000001.dfs.core.windows.net/"
+		},
+		"DS_SOURCE_DELETE_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0000001.dfs.core.windows.net/"
+		},
+		"DS_SQLSERVER_DB_properties_typeProperties_server": {
+			"value": "localhost,1433"
+		},
+		"DS_SQLSERVER_DB_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"DS_SQLSERVER_DB_properties_typeProperties_userName": {
+			"value": "Sushmitha_sql"
+		},
+		"LS_FOREACH_MULTCSV_PARQUET_properties_typeProperties_url": {
+			"value": "https://testtstoragee01.dfs.core.windows.net/"
+		},
+		"LS_GETMETADATA_SQL_properties_typeProperties_server": {
+			"value": ".\\SQLEXPRESS"
+		},
+		"LS_GETMETADATA_SQL_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"LS_GETMETADATA_SQL_properties_typeProperties_userName": {
+			"value": "Sushmitha_sql"
+		},
+		"LS_LOOKUP_FILTER_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0000001.dfs.core.windows.net/"
+		},
+		"LS_MULTIPLECSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsource0000001.dfs.core.windows.net/"
+		},
+		"LS_MULTIPLE_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0000001.dfs.core.windows.net/"
+		},
+		"LS_RESTAPI_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/5yDVOt/data"
+		},
+		"LS_SINK_EVENT_TRIGGER_MULTCSV_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0000001.dfs.core.windows.net/"
+		},
+		"LS_SINK_FOREACH_MULTCSV_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0000001.dfs.core.windows.net/"
+		},
+		"LS_SINK_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0000001.dfs.core.windows.net/"
+		},
+		"LS_SINK_RESTAPI_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0000001.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsource0000001.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_EVENT_TRIGGER_MULTCSV_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevsource0000001.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_LOOKUP_properties_typeProperties_url": {
+			"value": "https://testtstoragee01.dfs.core.windows.net/"
+		},
+		"LS_SQLDB_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevsink0000001.dfs.core.windows.net/"
+		},
+		"LS_SQLSERVER_DB_properties_typeProperties_server": {
+			"value": ".\\SQLEXPRESS"
+		},
+		"LS_SQLSERVER_DB_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"LS_SQLSERVER_DB_properties_typeProperties_userName": {
+			"value": "Sushmitha_sql"
+		},
+		"LS_SQL_LOOKUP_properties_typeProperties_server": {
+			"value": ".\\SQLEXPRESS"
+		},
+		"LS_SQL_LOOKUP_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"LS_SQL_LOOKUP_properties_typeProperties_userName": {
+			"value": "Sushmitha_sql"
+		},
+		"LS_SQL_STOREDPROCEDURE_properties_typeProperties_server": {
+			"value": ".\\SQLEXPRESS"
+		},
+		"LS_SQL_STOREDPROCEDURE_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"LS_SQL_STOREDPROCEDURE_properties_typeProperties_userName": {
+			"value": "Sushmitha_sql"
+		},
+		"EVENT_TRIGGER_MULTIPLECSV_PARQUET_properties_typeProperties_scope": {
+			"value": "/subscriptions/8c03f21e-3855-41c4-8171-b57a1e547ff9/resourceGroups/rgdevchevronproject/providers/Microsoft.Storage/storageAccounts/adlsdevsource0000001"
+		}
+	}
+}
