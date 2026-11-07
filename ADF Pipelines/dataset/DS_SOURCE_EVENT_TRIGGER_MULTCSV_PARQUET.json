@@ -1,0 +1,23 @@
+{
+	"name": "DS_SOURCE_EVENT_TRIGGER_MULTCSV_PARQUET",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SOURCE_EVENT_TRIGGER_MULTCSV_PARQUET",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "eventtriggerinput"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

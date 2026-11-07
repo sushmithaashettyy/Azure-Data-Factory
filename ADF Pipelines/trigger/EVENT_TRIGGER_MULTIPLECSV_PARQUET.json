@@ -1,0 +1,24 @@
+{
+	"name": "EVENT_TRIGGER_MULTIPLECSV_PARQUET",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_EVENTTRIGGER_MULTIPLECSV_PARQUET_copy1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/eventtriggerinput/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/8c03f21e-3855-41c4-8171-b57a1e547ff9/resourceGroups/rgdevchevronproject/providers/Microsoft.Storage/storageAccounts/adlsdevsource0000001",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"name": "SCH_TRIGGER_MULTIPLECSV_PARQUET",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_SCHTRIGGER_MULTIPLECSV_PARQUET",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-11-07T18:18:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

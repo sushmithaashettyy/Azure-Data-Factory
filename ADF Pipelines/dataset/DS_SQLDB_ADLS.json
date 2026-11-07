@@ -1,0 +1,81 @@
+{
+	"name": "DS_SQLDB_ADLS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQLDB_ADLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "sqldboutput"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "BusinessEntityID",
+				"type": "INT32"
+			},
+			{
+				"name": "NationalIDNumber",
+				"type": "UTF8"
+			},
+			{
+				"name": "LoginID",
+				"type": "UTF8"
+			},
+			{
+				"name": "OrganizationLevel",
+				"type": "INT32"
+			},
+			{
+				"name": "JobTitle",
+				"type": "UTF8"
+			},
+			{
+				"name": "BirthDate",
+				"type": "DATE"
+			},
+			{
+				"name": "MaritalStatus",
+				"type": "UTF8"
+			},
+			{
+				"name": "Gender",
+				"type": "UTF8"
+			},
+			{
+				"name": "HireDate",
+				"type": "DATE"
+			},
+			{
+				"name": "SalariedFlag",
+				"type": "BOOLEAN"
+			},
+			{
+				"name": "VacationHours",
+				"type": "INT32"
+			},
+			{
+				"name": "SickLeaveHours",
+				"type": "INT32"
+			},
+			{
+				"name": "CurrentFlag",
+				"type": "BOOLEAN"
+			},
+			{
+				"name": "rowguid",
+				"type": "UTF8"
+			},
+			{
+				"name": "ModifiedDate",
+				"type": "INT96"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

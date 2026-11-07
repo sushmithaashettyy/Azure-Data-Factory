@@ -1,0 +1,19 @@
+{
+	"name": "DS_SOURCE_DELETE",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DS_SOURCE_DELETE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "data_5311e959-bcd7-4630-9694-1057c88fb291_562d8e5e-6a06-4c76-aeb0-8b608df18eb6.parquet",
+				"fileSystem": "restapioutput"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

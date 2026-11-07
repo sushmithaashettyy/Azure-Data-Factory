@@ -1,0 +1,97 @@
+{
+	"name": "DS_SINK_RESTAPI",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SINK_RESTAPI",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "restapioutput"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "id",
+				"type": "INT64"
+			},
+			{
+				"name": "Sku",
+				"type": "UTF8"
+			},
+			{
+				"name": "TP1",
+				"type": "UTF8"
+			},
+			{
+				"name": "TP2",
+				"type": "UTF8"
+			},
+			{
+				"name": "index",
+				"type": "UTF8"
+			},
+			{
+				"name": "Weight",
+				"type": "UTF8"
+			},
+			{
+				"name": "Catalog",
+				"type": "UTF8"
+			},
+			{
+				"name": "MRPOld",
+				"type": "UTF8"
+			},
+			{
+				"name": "AjioMRP",
+				"type": "UTF8"
+			},
+			{
+				"name": "Category",
+				"type": "UTF8"
+			},
+			{
+				"name": "StyleId",
+				"type": "UTF8"
+			},
+			{
+				"name": "PaytmMRP",
+				"type": "UTF8"
+			},
+			{
+				"name": "AmazonMRP",
+				"type": "UTF8"
+			},
+			{
+				"name": "MyntraMRP",
+				"type": "UTF8"
+			},
+			{
+				"name": "FlipkartMRP",
+				"type": "UTF8"
+			},
+			{
+				"name": "LimeroadMRP",
+				"type": "UTF8"
+			},
+			{
+				"name": "SnapdealMRP",
+				"type": "UTF8"
+			},
+			{
+				"name": "FinalMRPOld",
+				"type": "UTF8"
+			},
+			{
+				"name": "AmazonFBAMRP",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
