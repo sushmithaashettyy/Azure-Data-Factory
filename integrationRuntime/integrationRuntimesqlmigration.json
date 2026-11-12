@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntimesqlmigration",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
